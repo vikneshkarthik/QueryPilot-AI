@@ -1,0 +1,13 @@
+# QueryPilot AI — Streamlit app theme.
+#
+# This is the supported way to make Streamlit-rendered components (data grids,
+# widgets, tooltips, popups) render dark. `st.dataframe()` does NOT accept a
+# `theme=` argument; the grid follows this app theme instead.
+
+[theme]
+base = "dark"
+primaryColor = "#8d9aff"
+backgroundColor = "#11182a"
+secondaryBackgroundColor = "#171f31"
+textColor = "#f2f5fb"
+font = "sans serif"
